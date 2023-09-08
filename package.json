@@ -1,0 +1,28 @@
+{
+  "name": "lab-4.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "build": "webpack --watch --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FOOSSIILL/LAB-4.1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FOOSSIILL/LAB-4.1/issues"
+  },
+  "homepage": "https://github.com/FOOSSIILL/LAB-4.1#readme",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
