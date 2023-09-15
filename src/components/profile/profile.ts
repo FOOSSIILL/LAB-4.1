@@ -50,11 +50,9 @@ class Profile extends HTMLElement{
     render(){
         if(this.shadowRoot){
             this.shadowRoot.innerHTML = `
-            <section>
-            <h1>${this.name}</h1>
-            <p>ID for one our users: ${this.uid}</p>
-            <p>From: ${this.city}</p>
-            </section>
+            <link rel="stylesheet" href="./src/components/profile/style.css">
+            <div>
+            </div>
             `
         }
     }
